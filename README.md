@@ -1,15 +1,9 @@
-# exlaunch-cmake
+# exlaunch
+A framework for injecting C/C++ code into Nintendo Switch applications/applet/sysmodules.
 
-A fork of exlaunch with focus on subsdk output for game modding.
+# Note
+This project is a work in progress. If you have issues, reach out to Shadów#1337 on Discord.
 
-# Notes
-
-Currently untested
-
-# Credits
-
-- [exlaunch](https://github.com/shadowninja108/exlaunch/)
-- [BDSP](https://github.com/Martmists-GH/BDSP)
-- [Sanae](https://github.com/Sanae6)
-- [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)
-- [oss-rtld](https://github.com/Thog/oss-rtld)
+# Credit
+- Atmosphère: A great reference and guide.
+- oss-rtld: Included for (pending) interop with rtld in applications (License [here](https://github.com/shadowninja108/exlaunch/blob/main/source/lib/reloc/rtld/LICENSE.txt)).

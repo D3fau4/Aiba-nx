@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(COSMOS)
+project(AI)
 
 ## Error if not using switch toolchain file
 if (NOT SWITCH)
@@ -11,9 +11,9 @@ set(CMAKE_CXX_STANDARD 20)
 enable_language(ASM C CXX)
 
 ## Title Id
-set(CONFIG_TITLE_ID 0x0100801011c3e000)
+set(CONFIG_TITLE_ID 0x010089B00D09C000)
 add_compile_definitions(EXL_PROGRAM_ID=${CONFIG_TITLE_ID} EXL_LOAD_KIND=Module EXL_LOAD_KIND_ENUM=2)
-configure_file(${PROJECT_SOURCE_DIR}/COSMOS.json ${CMAKE_CURRENT_BINARY_DIR}/COSMOS.json)
+configure_file(${PROJECT_SOURCE_DIR}/config.json ${CMAKE_CURRENT_BINARY_DIR}/COSMOS.json)
 
 ## Project sources
 include_directories(${PROJECT_SOURCE_DIR}/source/)

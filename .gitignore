@@ -6,3 +6,5 @@ deploy/*
 *.elf
 *.nso
 *.npdm
+
+cmake-build-debug-wsl/

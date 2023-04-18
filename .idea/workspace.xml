@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="CMakePresetLoader"><![CDATA[{
   "useNewFormat": true
 }]]></component>
@@ -10,187 +7,29 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="AI" targetName="COSMOS" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="false" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G &quot;Unix Makefiles&quot; -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain.cmake" />
+      <configuration PROFILE_NAME="Debug-WSL" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="WSL" GENERATION_OPTIONS="-G &quot;Unix Makefiles&quot; -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain.cmake">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="DEVKITARM" value="/opt/devkitpro/devkitARM" />
+            <env name="DEVKITPPC" value="/opt/devkitpro/devkitPPC" />
+            <env name="DEVKITPRO" value="/opt/devkitpro" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9611718-b6f8-4b71-94c3-49edbc259796" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Aiba-nx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.clang-format" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+    <list default="true" id="2854d718-3d46-470c-9a60-b04b1a8b1ea0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/exlaunch-cmake.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/SwitchTools.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/SwitchTools.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/toolchain.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/toolchain.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/subsdk9.json.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/subsdk9.ld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/subsdk9.specs.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/alloc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/add_subtract_immediate/add_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/add_subtract_immediate/adds_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/add_subtract_immediate/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/add_subtract_immediate/cmn_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/add_subtract_immediate/cmp_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/add_subtract_immediate/sub_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/add_subtract_immediate/subs_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/logical_immediate/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/logical_immediate/orr_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/move_wide_immediate/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/move_wide_immediate/movk.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/move_wide_immediate/movn.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/move_wide_immediate/movz.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/pc_rel_addressing/adr.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/pc_rel_addressing/adrp.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op100x/pc_rel_addressing/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/hints/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/hints/nop.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/unconditional_branch_immediate/b.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/unconditional_branch_immediate/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/unconditional_branch_immediate/bl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/unconditional_branch_register/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/unconditional_branch_register/br.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/op101x/unconditional_branch_register/ret.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx101/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx101/logical_shifted_register/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx101/logical_shifted_register/mov_register.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx101/logical_shifted_register/orr_shifted_register.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_register_literal/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_register_literal/ldr_literal.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_offset/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_offset/ldr_register_offset.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_offset/str_register_offset.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_unscaled_immediate/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_unscaled_immediate/ldur_unscaled_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_unscaled_immediate/stur_unscaled_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_unsigned_immediate/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_unsigned_immediate/ldr_register_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/instructions/opx1x0/load_store_register_unsigned_immediate/str_register_immediate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/armv8/register.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/diag/abort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/diag/abort.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/diag/assert.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/diag/reboot_to_payload.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/diag/reboot_to_payload.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/class.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/deprecated.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/inline.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/nx64/hook_impl.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/nx64/impl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/nx64/inline_asm.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/nx64/inline_impl.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/nx64/inline_impl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/replace.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/hook/trampoline.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/init/crt0.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/init/header.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/init/init.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/libsetting.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/module.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/abort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/arm/cache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/arm/cache.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/arm/tls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/kernel/svc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/kernel/svc.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/kernel/virtmem.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/kernel/virtmem.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/nx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/result.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/smc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/smc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nx/types.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/patch/code_patcher.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/patch/patcher_impl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/patch/random_access_patcher.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/patch/stream_patcher.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/elf.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/elf.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/ModuleHeader.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/ModuleList.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/ModuleObject.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/ModuleObject.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/dl_trampoline.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/ld.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/reloc/rtld/utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/result.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/func_ptrs.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/math/bitset.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/math/sign_extend.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/modules.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/ptr_path.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/random.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/random.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/cur_proc_handle.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/cur_proc_handle.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/jit.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/mem_layout.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/mem_layout.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/rw_pages.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/rw_pages.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/sys/soc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/util/typed_storage.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/fs.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/fs/fs_directories.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/fs/fs_files.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/fs/fs_mount.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/fs/fs_types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/nn_common.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/nnmusl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_internal_condition_variable.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_internal_condition_variable_impl.os.horizon.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_internal_critical_section.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_internal_critical_section_impl.os.horizon.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_resource_manager.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_tick_manager_impl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_tick_manager_impl.os.horizon.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_timeout_helper.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/impl/os_timeout_helper_impl.os.horizon.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_condition_variable_common.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_event_api.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_event_common.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_event_types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_mutex_api.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_mutex_common.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_mutex_type.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_thread_api.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_thread_common.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_thread_type.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_tick.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/os/os_types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/ro.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/time.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/time/time_timespan.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn/util/util_typed_storage.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/setting.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/program/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/program/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,40 +39,28 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-WSL" />
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
-    <option name="majorVersion" value="2023" />
-    <option name="minorVersion" value="1.1" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.2" />
   </component>
-  <component name="ProjectId" id="2Oax9eNBdB2TMcZFli0aPqTBFgk" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ObkKmnux2NCxuiqUCTOhn198Lz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "CPPToolchains",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -243,29 +70,25 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
+    <configuration name="COSMOS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AI" TARGET_NAME="COSMOS" CONFIG_NAME="Debug-WSL" RUN_TARGET_PROJECT_NAME="AI" RUN_TARGET_NAME="COSMOS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c9611718-b6f8-4b71-94c3-49edbc259796" name="Changes" comment="" />
-      <created>1681812344552</created>
+      <changelist id="2854d718-3d46-470c-9a60-b04b1a8b1ea0" name="Changes" comment="" />
+      <created>1681836607476</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681812344552</updated>
-      <workItem from="1681812350331" duration="2282000" />
+      <updated>1681836607476</updated>
+      <workItem from="1681836609152" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VCPKGProject">
-    <isAutomaticEditVcpkgJson value="false" />
-    <isAutomaticCheckingOnLaunch value="false" />
-    <isAutomaticFoundErrors value="true" />
-    <isAutomaticFoundErrors value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

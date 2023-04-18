@@ -8,6 +8,7 @@ HOOK_DEFINE_TRAMPOLINE(nnMainInit) {
     static void Callback() {
         R_ABORT_UNLESS(nn::fs::MountSdCardForDebug("sd"));
         s_instance = new Hato::logger::SdLogger("sd:/ai.log");
+        s_instance->Log("Funcion: nnMain hooked!");
         Orig();
     }
 };

@@ -20,7 +20,7 @@ NPDM_JSON := application.json
 
 # Additional C/C++ flags to use.
 C_FLAGS := 
-CXX_FLAGS := 
+CXX_FLAGS :=
 
 # AsRtld settings
 #------------------------

@@ -1,6 +1,7 @@
 #include "lib.hpp"
 #include "nn.hpp"
 #include "Hato/Hato.hpp"
+#include "GameEngine/il2cpp-api.h"
 
 Hato::logger::SdLogger* s_instance;
 

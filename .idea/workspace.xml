@@ -29,51 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2854d718-3d46-470c-9a60-b04b1a8b1ea0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Action.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Collections/Generic/Dictionary.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Collections/Generic/List.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Delegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/MulticastDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Nullable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Primitives.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/RuntimeTypeHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/String.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Text/Encoding.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Text/UTF8Encoding.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Type.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/_Object.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Behaviour.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Bounds.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Color.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Color32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Component.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/DrivenRectTransformTracker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/EventSystems/UIBehaviour.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Events/UnityAction.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/GameObject.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/MonoBehaviour.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Quaternion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/RectTransform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/SceneManagement/Scene.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/SceneManagement/SceneManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Transform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/Graphic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/HorizontalLayoutGroup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/HorizontalOrVerticalLayoutGroup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/Image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/LayoutGroup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/ListPool.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/MaskableGraphic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/ScrollRect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Vector2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Vector2Int.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Vector3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/_Object.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GameEngine/externals.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/GameEngine/Game/RootNode.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/mk/common.mk" beforeDir="false" afterPath="$PROJECT_DIR$/misc/mk/common.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/program/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/program/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Behaviour.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Behaviour.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Component.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Events/UnityAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Events/UnityAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/GameObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/RectTransform.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/RectTransform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/SceneManagement/Scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/SceneManagement/Scene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/SceneManagement/SceneManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/SceneManagement/SceneManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Transform.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/Transform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/ListPool.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/UI/ListPool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/UnityEngine/_Object.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/_Object.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,11 +95,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1681836607476</updated>
       <workItem from="1681836609152" duration="2143000" />
-      <workItem from="1681838826736" duration="1015000" />
+      <workItem from="1681838826736" duration="2601000" />
+      <workItem from="1681845099873" duration="3061000" />
     </task>
     <servers />
   </component>

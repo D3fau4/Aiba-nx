@@ -12,11 +12,11 @@ namespace UnityEngine {
 
         template <typename T>
         static inline T::Object* Instantiate(T* original) {
-            return external<typename T::Object*>(0x0268aa90, original);
+            return external<typename T::Object*>(0x0110a750, original);
         }
 
         System::String::Object* GetName() {
-            return external<System::String::Object*>(0x0268a940, this);
+            return external<System::String::Object*>(0x01105140, this);
         }
     };
 }

@@ -23,13 +23,11 @@ namespace UnityEngine {
     struct Transform;
     struct RectTransform;
 
-    struct Component : ILClass<Component, 0x04c57e88> {
+    struct Component : ILClass<Component, 0x039c2528> {
         struct Fields : public UnityEngine::_Object::Fields {
 
         };
 
-        static inline StaticILMethod<0x04c667d0, Dpr::UI::SettingMenuItem> Method$$SettingMenuItem$$GetComponent {};
-        static inline StaticILMethod<0x04c667e0, Dpr::UI::UIText> Method$$UIText$$GetComponent {};
         static inline StaticILMethod<0x04c66970, UnityEngine::UI::HorizontalLayoutGroup> Method$$HorizontalLayoutGroup$$GetComponent {};
         static inline StaticILMethod<0x04c66918, UnityEngine::RectTransform> Method$$RectTransform$$GetComponent {};
 
@@ -42,20 +40,20 @@ namespace UnityEngine {
         inline T::Object* GetComponent(T::Class* type) {
             System::RuntimeTypeHandle::Object handle {};
             handle.fields.value = &type->_1.byval_arg;
-            return external<typename T::Object*>(0x026a81c0, this, System::Type::GetTypeFromHandle(handle));
+            return external<typename T::Object*>(0x00b19c90, this, System::Type::GetTypeFromHandle(handle));
         }
 
         template <typename T>
         inline T::Object* GetComponent(ILMethod<T>& method) {
-            return external<typename T::Object*>(0x01f48340, this, *method);
+            return external<typename T::Object*>(0x012cc550, this, *method);
         }
 
         void GetComponents(System::Type* type, System::Collections::Generic::List$$Component* results) {
-            external<void>(0x026a8510, this, type, results);
+            external<void>(0x00b1a790, this, type, results);
         }
 
         UnityEngine::Transform* get_transform() {
-            return external<UnityEngine::Transform*>(0x026a8120, this);
+            return external<UnityEngine::Transform*>(0x00b199d0, this);
         }
     };
 }

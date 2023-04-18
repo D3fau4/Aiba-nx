@@ -17,7 +17,7 @@ namespace UnityEngine::Events {
         }
 
         inline void ctor(void* owner, MethodInfo* mi) {
-            external<void>(0x026adeb0, this, owner, mi);
+            external<void>(0x0b22490, this, owner, mi);
         }
 
         // DEBUGGING PURPOSES ONLY

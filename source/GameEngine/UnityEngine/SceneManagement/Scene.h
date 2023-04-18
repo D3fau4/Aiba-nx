@@ -10,11 +10,11 @@ namespace UnityEngine::SceneManagement {
         };
 
         inline UnityEngine::GameObject::Array* GetRootGameObjects() {
-            return external<UnityEngine::GameObject::Array*>(0x029947e0, this);
+            return external<UnityEngine::GameObject::Array*>(0x0d15830, this);
         }
 
         inline System::String::Object* get_name() {
-            return external<System::String::Object*>(0x029946f0, this);
+            return external<System::String::Object*>(0x0124cff0, this);
         }
     };
 }

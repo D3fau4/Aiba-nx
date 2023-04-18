@@ -12,31 +12,31 @@ namespace UnityEngine {
         };
 
         inline void SetParent(UnityEngine::Transform* parent, bool worldPositionStays) {
-            external<void>(0x0299e340, this, parent, worldPositionStays);
+            external<void>(0x012655d0, this, parent, worldPositionStays);
         }
 
         inline void SetSiblingIndex(int32_t index) {
-            external<void>(0x0299f400, this, index);
+            external<void>(0x01267750, this, index);
         }
 
         inline int32_t get_childCount() {
-            return external<int32_t>(0x0299f2c0, this);
+            return external<int32_t>(0x01267590, this);
         }
 
         inline UnityEngine::Transform::Object* GetParent() {
-            return external<UnityEngine::Transform::Object*>(0x0299e290, this);
+            return external<UnityEngine::Transform::Object*>(0x012652f0, this);
         }
 
         inline UnityEngine::Transform::Object* GetChild(int32_t index) {
-            return external<UnityEngine::Transform::Object*>(0x0299f7d0, this, index);
+            return external<UnityEngine::Transform::Object*>(0x01267b90, this, index);
         }
 
         inline UnityEngine::Transform::Object* Find(System::String* name) {
-            return external<UnityEngine::Transform::Object*>(0x0299f500, this, name);
+            return external<UnityEngine::Transform::Object*>(0x01267830, this, name);
         }
         
         inline void Translate(UnityEngine::Vector3* translation) {
-            external<void>(0x0299e630, this, translation);
+            external<void>(0x01265990, this, translation);
         }
 
 

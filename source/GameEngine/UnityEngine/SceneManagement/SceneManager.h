@@ -10,7 +10,7 @@ namespace UnityEngine::SceneManagement {
         };
 
         static inline Scene::Object GetActiveScene() {
-            return external<Scene::Object>(0x02994bf0);
+            return external<Scene::Object>(0x0124dd00);
         }
     };
 }

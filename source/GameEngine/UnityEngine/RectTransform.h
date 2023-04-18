@@ -14,6 +14,6 @@ namespace UnityEngine {
 
 namespace System::Collections::Generic {
     struct List$$RectTransform : List<List$$RectTransform, UnityEngine::RectTransform> {
-        static inline StaticILMethod<0x04c8ad78, UnityEngine::RectTransform> Method$$Add {};
+        static inline StaticILMethod<0x039cc478, UnityEngine::RectTransform> Method$$Add {};
     };
 }

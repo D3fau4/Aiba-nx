@@ -13,7 +13,7 @@ jobs:
 
     - name: Build app
       run: |
-        ./exlaunch.sh build
+        bash ./exlaunch.sh build
         
     - uses: actions/upload-artifact@v3.1.1
       with:

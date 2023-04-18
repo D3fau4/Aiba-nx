@@ -1,39 +1,29 @@
 #include "lib.hpp"
+#include "nn.hpp"
+#include "Hato/Hato.hpp"
 
-/* Define hook StubCopyright. Trampoline indicates the original function should be kept. */
-/* HOOK_DEFINE_REPLACE can be used if the original function does not need to be kept. */
-HOOK_DEFINE_TRAMPOLINE(StubCopyright) {
+Hato::logger::SdLogger* s_instance;
 
-    /* Define the callback for when the function is called. Don't forget to make it static and name it Callback. */
-    static void Callback(bool enabled) {
-
-        /* Call the original function, with the argument always being false. */
-        Orig(false);
+HOOK_DEFINE_TRAMPOLINE(nnMainInit) {
+    static void Callback() {
+        R_ABORT_UNLESS(nn::fs::MountSdCardForDebug("sd"));
+        s_instance = new Hato::logger::SdLogger("sd:/ai.log");
+        Orig();
     }
-
 };
 
+HOOK_DEFINE_REPLACE(NoAction) {
+    static void Callback() {
 
-/* Declare function to dynamic link with. */
-namespace nn::oe {
-    void SetCopyrightVisibility(bool);
+    }
 };
 
 extern "C" void exl_main(void* x0, void* x1) {
-    /* Setup hooking enviroment. */
     exl::hook::Initialize();
 
-    /* Install the hook at the provided function pointer. Function type is checked against the callback function. */
-    StubCopyright::InstallAtFuncPtr(nn::oe::SetCopyrightVisibility);
+    NoAction::InstallAtSymbol("_ZN2nn2fs12SetAllocatorEPFPvmEPFvS1_mE");
 
-    /* Alternative install funcs: */
-    /* InstallAtPtr takes an absolute address as a uintptr_t. */
-    /* InstallAtOffset takes an offset into the main module. */
-
-    /*
-    For sysmodules/applets, you have to call the entrypoint when ready
-    exl::hook::CallTargetEntrypoint(x0, x1);
-    */
+    nnMainInit::InstallAtSymbol("nnMain");
 }
 
 extern "C" NORETURN void exl_exception_entry() {

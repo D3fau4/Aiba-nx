@@ -13,7 +13,7 @@ namespace System {
 
     PRIMITIVE_ARRAY(Boolean);
     static Il2CppClass* Boolean_array_TypeInfo() {
-        return *reinterpret_cast<Il2CppClass**>(exl::util::modules::GetTargetOffset(0x04c55920));
+        return *reinterpret_cast<Il2CppClass**>(exl::util::modules::GetTargetOffset(0x039befe8));
     }
     PRIMITIVE_ARRAY(Byte);
     PRIMITIVE_ARRAY(Char);

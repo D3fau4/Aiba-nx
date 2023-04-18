@@ -11,7 +11,7 @@ namespace System {
         };
 
         static System::Type::Object* GetTypeFromHandle(System::RuntimeTypeHandle::Object handle) {
-            return external<System::Type::Object*>(0x02b194d0, handle);
+            return external<System::Type::Object*>(0x010f6630, handle);
         }
     };
 }

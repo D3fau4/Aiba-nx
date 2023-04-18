@@ -20,7 +20,7 @@ namespace System::Collections::Generic {
         }
 
         inline void Add(E* item) {
-            ILClass<T>::template external<void>(0x02a3c680, this, item, *T::Method$$Add);
+            ILClass<T>::template external<void>(0x01497e80, this, item, *T::Method$$Add);
         }
     };
 }

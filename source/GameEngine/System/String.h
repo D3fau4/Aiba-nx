@@ -13,7 +13,7 @@ namespace System {
         };
 
         static String::Object* Create(const char* value) {
-            return external<String::Object*>(0x026fb3e0, nullptr, (int8_t*)value);
+            return external<String::Object*>(0x006557d0, nullptr, (int8_t*)value);
         }
 
         static String::Object* Create(const std::string& value) {
@@ -24,7 +24,7 @@ namespace System {
             System::String::Object* str = this->instance();
             System::Text::UTF8Encoding::Object* encoding = System::Text::Encoding::get_UTF8();
             uint32_t size = encoding->GetByteCount(str);
-            auto arr = reinterpret_cast<System::Byte_array *>(system_array_new(*(Il2CppClass**)exl::util::modules::GetTargetOffset(0x04c552e0), size+1));
+            auto arr = reinterpret_cast<System::Byte_array *>(system_array_new(*(Il2CppClass**)exl::util::modules::GetTargetOffset(0x039beb70), size+1));
             encoding->GetBytes(str, 0, str->fields.m_stringLength, arr, 0);
             arr->m_Items[size] = 0;
             auto res = std::string((char*)&arr->m_Items[0]);

@@ -9,6 +9,7 @@ namespace System {
 namespace System::Text {
     struct UTF8Encoding : ILClass<UTF8Encoding> {
         inline uint32_t GetByteCount(System::String* str) {
+            // TODO: implement UTF8 encoding for AI
             return external<uint32_t>(0x02588990, this, str);
         }
 

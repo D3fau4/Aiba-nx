@@ -29,14 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2854d718-3d46-470c-9a60-b04b1a8b1ea0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/source/GameEngine/System/Action/AsyncOperation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/AsyncOperation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/GameEngine/UnityEngine/YieldInstruction.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/GameEngine/System/Collections/Generic/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/System/Collections/Generic/List.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/GameEngine/System/Primitives.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/System/Primitives.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/GameEngine/System/String.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/System/String.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/GameEngine/System/Text/Encoding.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/System/Text/Encoding.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/GameEngine/System/Text/UTF8Encoding.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/System/Text/UTF8Encoding.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/GameEngine/System/Type.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/System/Type.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/GameEngine/System/_Object.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/System/_Object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/GameEngine/externals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/GameEngine/externals.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/program/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/program/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -102,6 +103,9 @@
       <workItem from="1681836609152" duration="2143000" />
       <workItem from="1681838826736" duration="2601000" />
       <workItem from="1681845099873" duration="3955000" />
+      <workItem from="1681922024522" duration="6991000" />
+      <workItem from="1682948763456" duration="3834000" />
+      <workItem from="1682954761644" duration="167000" />
     </task>
     <servers />
   </component>
